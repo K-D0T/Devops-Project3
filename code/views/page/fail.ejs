@@ -7,19 +7,58 @@
     <meta name="description" content="Project 3 Starter for Comp 4420 University of West Georgia Spring 2024">
     <meta name="author" content="Comp 4420">
     <!-- Bootstrap CSS Reset -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        background-color: black;
+        height: 100vh;
+        margin: 0;
+        font-family: "Jersey 10", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      nav {
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 20px;
+      }
+      .nav-link {
+        color: #ffdde1;
+      }
+      .nav-link:hover {
+        color: #0400ff;
+      }
+      .container {
+        padding: 20px;
+        text-align: center;
+      }
+      h1 {
+        background: linear-gradient(to right, #0400ff, #ffdde1);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-size: 60px;
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
 </head>
 <body>
  <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/About">About</a>
-            </li>
-          </ul>
+    <nav class="navbar navbar-expand-lg static-top">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/About">About</a>
+        </li>
+      </ul>
     </nav>
  <!-- Content -->
     <div class="container">
@@ -31,6 +70,3 @@
     <script src="/js/bootstrap.min.js"></script>
 </body>
 </html>
-
-
-
